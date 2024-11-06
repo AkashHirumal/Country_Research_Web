@@ -1,0 +1,36 @@
+body{
+    background-color:purple;
+}
+.form-inputs{
+    position:relative;
+}
+.form-inputs .form-control{
+    height:45px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs i{
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+
+.shop-bag{
+    background-color:#000;
+    color:#fff;
+    height:50px;
+    width:50px;
+    font-size:25px;
+    display:flex;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+}
+
+.qty{
+    font-size:12px;
+}
