@@ -11,8 +11,8 @@ async function loadcountries() {
         console.log(element);
         body+=`
           <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
+            <div class="row g-0 border rounded  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex crdflag flex-column position-static">
                 <h3 class="mb-0">${element.name.common}</h3>
                 <div class="mb-1 text-muted">${element.region}</div>
                 <p class="card-text mb-auto"><b>Population :</b>: ${element.population}</p>
@@ -22,7 +22,7 @@ async function loadcountries() {
                 <a href="#" class="stretched-link" onclick="${element.maps.openStreetMaps}">View Map</a>
               </div>
             <div class="col-auto d-none d-lg-block">
-              <img src= ${element.flags.png} width="300" height="200" alt="">
+              <img src= ${element.flags.png} width="300" height="208" alt="">
 
             </div>
             </div>
@@ -49,11 +49,11 @@ function searchCountry(){
         let body="";
         data.forEach(element => {
             body+=`
-            <div class="card2" style="width: 80rem;">
+            <div class="card2 " style="width: 80rem;">
               <center><img src= ${element.flags.png} width="500" height="300" alt=""></center>
               <div class="card-body">
-                <h1 class="card-title">${element.name.common}</h1>
-                <h4 class="card-text">${element.region}</h4>
+                <h1 class="card-title title2">${element.name.common}</h1>
+                <h4 class="card-text title2">${element.region}</h4>
               </div>
               <br>
               <table class="table">

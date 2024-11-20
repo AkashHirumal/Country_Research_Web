@@ -1,5 +1,18 @@
-body{
-    background-color:purple;
+
+.background{
+    background-image: url('./img/map4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.navbar2 {
+    width: 55%; /* Adjust the width as needed */
+}
+
+.crdflag{
+    background-color: #ffffffc2;
 }
 .form-inputs{
     position:relative;
@@ -19,6 +32,11 @@ body{
     top:15px;
 }
 
+.title2{
+    color: #ffffff;
+}
+
+
 .shop-bag{
     background-color:#000;
     color:#fff;
@@ -36,5 +54,7 @@ body{
 }
 
 .card2{
-    background-color: rgba(71, 71, 71, 0.159);
+    background-color: #00000000;
 }
+
+
