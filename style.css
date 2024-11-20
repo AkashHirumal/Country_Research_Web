@@ -8,7 +8,11 @@
 
 
 .navbar2 {
-    width: 55%; /* Adjust the width as needed */
+    width: 55%;
+}
+.logo{
+    padding-left: 45px;
+
 }
 
 .crdflag{
@@ -33,6 +37,7 @@
 }
 
 .title2{
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -54,7 +59,10 @@
 }
 
 .card2{
-    background-color: #00000000;
+    background-color: #00000085;
 }
 
-
+.footer{
+    background-color: #000000;
+    color: #fff;
+}
