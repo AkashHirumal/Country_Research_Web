@@ -8,7 +8,8 @@
 
 
 .navbar2 {
-    width: 55%;
+    width: 25%;
+    margin-right: 600px;
 }
 .logo{
     padding-left: 45px;
@@ -56,6 +57,11 @@
 
 .qty{
     font-size:12px;
+}
+
+.concrd{
+    cursor: pointer;
+    
 }
 
 .card2{
