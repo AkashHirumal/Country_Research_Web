@@ -1,9 +1,6 @@
-
-
 loadcountries();
 
 async function loadcountries() {
-    
     let res = await fetch("https://restcountries.com/v3.1/all");
     let countries = await res.json();
     let body = "";
@@ -22,21 +19,15 @@ async function loadcountries() {
                 
               </div>
             <div class="col-auto d-none d-lg-block">
-              <img src= ${element.flags.png} width="300" height="208" alt="">
+              <img src= ${element.flags.png} width="300" height="218" alt="">
 
             </div>
             </div>
           </div>
-        `;
-
-        
-        
+        `;  
     });
-
     console.log(body);
-
-    document.getElementById("row").innerHTML=body;
-    
+    document.getElementById("row").innerHTML=body;    
 }
 
 function searchCountry(){
@@ -79,8 +70,6 @@ function searchCountry(){
             </div>
             `
         });
-        document.getElementById("row").innerHTML=body;
-        
-    })
-    
+        document.getElementById("row").innerHTML=body;     
+    }) 
 }
